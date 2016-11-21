@@ -7,10 +7,10 @@
 
 # Site settings
 title: Dualbooks
-email: your-email@domain.com
+email: info@1001ideas.org
 description: > # this means to ignore newlines until "baseurl:"
   Learn a new language while reading a book.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/implementations/dualbook" # the subpath of your site, e.g. /blog
 url: "http://1001ideas.org" # the base hostname & protocol for your site
 twitter_username: gewoonm
 github_username:  MatthijsZw

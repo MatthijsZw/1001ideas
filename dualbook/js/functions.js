@@ -41,7 +41,7 @@ function speak_translation()
 {
   var id = curID;
   var original = id.srcElement.innerText;
-  var audio = new Audio('/audio/' + slug + "/" + original + '.m4a');
+  var audio = new Audio('../audio/' + slug + "/" + original + '.m4a');
   console.log(audio);
   audio.play();
   id.preventDefault();
