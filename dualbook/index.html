@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Learn a language while reading a book</h1>
+  <p>
+    Learning a new language is fun. But sometimes difficult to get around to.
+    Save time and have fun by learning a language while reading a book.
+    You start in a language you're comfortable with, and right from the start some words will be in your 'target' language.
+    Slowly, more and more words will be in your target language. You can read the translation, or listen to the word.
+</p>
+<p>
+    Read the last sentence of the book completely in your new language!
+  </p>
+  <br>
+  <h3>Dualbooks in the library:</h3>
+
+  <ul class="post-list">
+    {% for book in site.books %}
+      <li>
+        <span class="post-meta">{{ book.author }} - {{ book.language }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ book.url | prepend: site.baseurl }}">📕 {{ book.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
