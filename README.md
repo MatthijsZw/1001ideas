@@ -10,3 +10,9 @@ Learn a new language by reading a book. You can contribute by adding new chapter
 
 Read about the idea in full on [1001ideas.org](http://1001ideas.org/history/2016/11/09/821-dualbook/).
 Or try it out: [read an example chapter](http://1001ideas.org/implementations/dualbook/).
+
+# Idea 131: Rebelmore
+Suggestions to become more of a creative rebel, inspired by the quote "Where's your will to be weird" by Jim Morrison. Gives a different suggestion everyday.
+
+Read about the idea in full on [1001ideas.org](http://1001ideas.org/history/2018/02/21/131-rebelmore/).
+Or try it out: [the 'reasonable' version](http://1001ideas.org/implementations/rebelmore/index.html) or [the extreme version](http://1001ideas.org/implementations/rebelmore/naughty.html).
