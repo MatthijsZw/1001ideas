@@ -1,0 +1,52 @@
+<head>
+  <meta charset="utf-8">
+  <title>Rebel More</title>
+  <link href='http://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="message">
+    <h1 id="header">...loading...</h1>
+  </div>
+  <a id="moreinfo" href="https://www.1001ideas.org/">more info ›</a>
+</div>
+
+<script>
+var rebelsuggestions = [
+  "Leave your phone at home for a day",
+  "Put a black dot on your hand. Refuse to explain what it's for",
+  "Read Wikipedia page of Salvador Dali",
+"Film your beverage and upload it to YouTube",
+"Switch the cutlery in your kitchen, move the forks where the spoons were, etc",
+"Wave to a stranger",
+"Ask someone to taste their lunch",
+"Wear non matching socks",
+"Put something small and useless in your desk. Make up a story why it's there",
+"On your daily commute, imagine you're not going to work/school/shopping, but instead to do your dream thing. Perhaps performing a concert, going to space or going a plane?",
+"Throw away something from your living room",
+"Put on a song you like and dance your heart out to it",
+"When grocery shopping: buy a fruit you've never eaten",
+"Find the closest 5 museums on Google",
+"Find the closest 5 bars on Google",
+"Find the closest 5 artists on Google, contact one of them",
+"Write a short story about yourself of half a page. It doesn't have to be true, but pretend it is",
+"Take 10 minutes to draw a duck",
+"Disagree on a trivial thing with someone, but don't be rude about it",
+"Write some goals for yourself",
+"Write your fears on a piece of paper, then tear it apart",
+"Tell someone about one of your biggest fears",
+"Tell someone they're doing great",
+"Don't wear any jewelry, rings or watches today",
+"Wear an extra piece of jewelry, rings or watches today",
+"Wear your oldest pants to work/school or shopping",
+"Make dinner from whatever is in your cupboards / fridge",
+"The most selfish thing I ever did was charity (Bill Clinton)",
+"Watch: https://www.youtube.com/watch?v=3Ve4mlfJFNU",
+];
+var element = document.getElementById('header');
+element.innerHTML = rebelsuggestions[Math.floor(Math.random()*rebelsuggestions.length)];
+
+</script>
+</body>

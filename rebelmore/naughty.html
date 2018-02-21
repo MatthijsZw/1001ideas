@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <title>Rebel More</title>
+  <link href='http://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <style>
+  .message {
+    /* uigradients.com "A lost memory"*/
+    color: red;
+  }
+  body {
+    background: white;
+  }
+  #moreinfo {
+    color: black;
+  }
+  </style>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="message">
+    <h1 id="header">...loading...</h1>
+  </div>
+  <a id="moreinfo" href="https://www.1001ideas.org/">more info ›</a>
+</div>
+
+<script>
+var rebelsuggestions = [
+  "Only eat skittles for 3 days and poop a rainbow",
+  "Drink 1 liter of yoghurt",
+  "Smash a banjo",
+  "Make a photo of a colleague sitting in the bathroom",
+  "Call a helpdesk and breathe awkwardly until they hangup",
+  "Order 20 pizza's to the department across the hall, on the name of somebody working there",
+  "Spice up someone's lunch with sambal, if they're not looking",
+  "Pull the fire alarm!",
+  "Use a copymachine inappropriately",
+  "Bring your pet to work",
+  "Put on headphones and listen to pornography and talk back to the actors, tell your colleges you have an important call",
+  "Bring spray paint to work and make a wall pretty",
+  "Lie at least 3 times to your manager today",
+  "Don't wear underwear tomorrow",
+  "Pretend it's your birthday today! Bring cakes and make people buy you a gift",
+  "Hide underneath a desk and grab someone by the ankles when they don't expect it",
+  "Lick a colleague in the neck",
+  "Email 10 random people your darkest secret. Add your name",
+  "Sleep on your keyboard",
+  "Say yes to everything.",
+  "Put a pack of condoms on your desk.",
+  "today, instead of email, insist on using twitter for corporate communication",
+  "Ask around during lunch how everybody's sex life is going. Pretend yours is horrible, be graphic",
+  "Misspell everybody's name in your emails",
+  "Set your phones ringtone to your favorite 80s tvshow tune and turn it to the loudest volume"
+];
+var element = document.getElementById('header');
+element.innerHTML = rebelsuggestions[Math.floor(Math.random()*rebelsuggestions.length)];
+
+</script>
+</body>
